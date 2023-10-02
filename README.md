@@ -5,6 +5,9 @@ O processo de aprendizagem de máquina surgiu com o advento da tecnologia no sé
 Diante deste cenário, surge a necessidade de encontrar uma alternativa para este problema, com o objetivo de potencializar a precisão dos modelos e impedirem sua obsolescência. Para isso, uma abordagem válida é o CKL (Continuous Knowleadge Learning), com a implementação de sistema de feedback com NLP e Web Scrapping, que tornarão as estruturas de ML dinâmicas e adaptadas para as novas informações que surgirão com o tempo.
 
 ## Diagrama de blocos
+<div align="center">
+    <img width="60%" src="./assets/diagramahayashi.png"/>
+</div>
 
 ### Sistema de feedback
 Este sistema será introduzido após as respostas, para que o usuário possa avaliar a qualidade e acurácia. Após esse procedimento, o feedback será coletado e utilizado para filtrar as informações relevantes para uma próxima base de dados. Além disso, o feedback também será submetido a um NLP (Natural Language Processing) para a identificação de categorias e sentimentos, que também contribuirão com a construção da próxima base a ser treinada.
